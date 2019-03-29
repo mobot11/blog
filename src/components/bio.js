@@ -38,7 +38,7 @@ function Bio() {
               }}
             />
             <p>
-              A place for <a href={`https://twitter.com/${social.twitter}`}> { author } </a> to discuss his two loves, coding and baseball.
+              A place for <a href={`https://twitter.com/${social.twitter}`}> { author } </a> to discuss his two loves, <br> coding and baseball.
               {` `}
               
             </p>
