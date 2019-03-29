@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "Dylan Moberg's blog",
   "private": true,
   "description": "A starter for a blog powered by Gatsby and Markdown",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Dylan Mobger <dylanmoberg11@gmail.com>",
   "dependencies": {
     "gatsby": "^2.1.37",
     "gatsby-image": "^2.0.34",
@@ -52,7 +49,7 @@
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/mobot11/blog"
   },
   "scripts": {
     "build": "gatsby build",
