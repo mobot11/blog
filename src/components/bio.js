@@ -7,7 +7,7 @@
 
 import React from "react"
 import { StaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import profilePic from '../../content/assets/profile-pic.jpg';
 
 import { rhythm } from "../utils/typography"
 
@@ -24,21 +24,19 @@ function Bio() {
               marginBottom: rhythm(2.5),
             }}
           >
-            <Image
-              fixed={data.avatar.childImageSharp.fixed}
-              alt={author}
+            <img 
+              src={profilePic} 
+              alt={`Dylan Moberg`} 
               style={{
                 marginRight: rhythm(1 / 2),
                 marginBottom: 0,
-                minWidth: 50,
-                borderRadius: `100%`,
-              }}
-              imgStyle={{
-                borderRadius: `50%`,
-              }}
-            />
+                width: rhythm(2),
+                height: rhythm(2),
+                borderRadius: '50%',
+              }}  
+              />
             <p>
-              A place for <a href={`https://twitter.com/${social.twitter}`}> { author } </a> to discuss his two loves, <br> coding and baseball.
+              A place for <a href={`https://twitter.com/${social.twitter}`}> { author } </a> to discuss his two loves, <br></br> coding and baseball.
               {` `}
               
             </p>

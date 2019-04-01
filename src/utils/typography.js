@@ -6,6 +6,13 @@ Wordpress2016.overrideThemeStyles = () => {
     "a.gatsby-resp-image-link": {
       boxShadow: `none`,
     },
+    "h1, h2, h3, h4, h5, h6" : {
+      fontFamily: `Roboto Condensed`,
+      color: `#002D62`
+    },
+    "a" : {
+      color: `#002D62`
+    }
   }
 }
 
