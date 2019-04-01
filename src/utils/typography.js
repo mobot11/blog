@@ -7,11 +7,18 @@ Wordpress2016.overrideThemeStyles = () => {
       boxShadow: `none`,
     },
     "h1, h2, h3, h4, h5, h6" : {
-      fontFamily: `Roboto Condensed`,
+      fontFamily: `Roboto Condensed, sans-serif`,
       color: `#002D62`
     },
     "a" : {
-      color: `#002D62`
+      color: `#002D62`,
+      boxShadow: `none`
+    },
+    "a:hover" : {
+      textDecoration: 'underline'
+    },
+    "p": {
+      fontFamily: `Roboto, sans-serif`
     }
   }
 }
