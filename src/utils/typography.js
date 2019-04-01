@@ -12,12 +12,12 @@ Wordpress2016.overrideThemeStyles = () => {
     },
     "a" : {
       color: `#002D62`,
-      boxShadow: `none`
+      boxShadow: `none`,
     },
     "a:hover" : {
       textDecoration: 'underline'
     },
-    "p": {
+    "p, a, small": {
       fontFamily: `Roboto, sans-serif`
     }
   }
