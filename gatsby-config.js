@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Bitecode & Baseball`,
+    title: `Byte code & Baseball`,
     author: `Dylan Moberg`,
     description: `A place for me to write about my two loves, coding and baseball.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
