@@ -10,8 +10,11 @@ Wordpress2016.overrideThemeStyles = () => {
             fontFamily: `Roboto Condensed, sans-serif`,
             color: `#002D62`,
         },
-        a: {
+        'h2 a': {
             color: `#002D62`,
+        },
+        a: {
+            color: `#00a0ea`,
             boxShadow: `none`,
         },
         'a:hover': {
