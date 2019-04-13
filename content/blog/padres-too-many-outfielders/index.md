@@ -1,6 +1,6 @@
 ---
 title: The Padres have too many outfielders
-date: "2015-04-14T23:46:37.121Z"
+date: "2018-04-11T23:46:37.121Z"
 description: "The Padres are young and talented. Here's why that might be a bad thing."
 ---
 
