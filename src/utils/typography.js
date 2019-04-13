@@ -11,7 +11,7 @@ Wordpress2016.overrideThemeStyles = () => {
             color: `#002D62`,
         },
         'h2 a': {
-            color: `#002D62`,
+            color: `#00a0ea`,
         },
         a: {
             color: `#00a0ea`,
